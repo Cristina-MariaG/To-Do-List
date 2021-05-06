@@ -1,0 +1,66 @@
+body
+{
+ background: linear-gradient(#d86464ad, #c8cbeebb) center/cover no-repeat;
+ height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding-top:25px;
+}
+#addob
+{
+    width: 40%;
+    position: relative;
+    margin-left:auto;margin-right:auto;
+    top:20px;
+    height: auto;
+}
+#addob .font-group button
+{
+    
+    position: relative;
+    left:43%;
+    width:100px;
+  
+}
+#addob .font-group button:hover
+{
+ color:mediumblue;
+background-color: hotpink;
+transition:2s;
+   
+}
+#addob input
+{
+    text-align: center;
+}
+
+.obiective > div
+{
+    width:48%;
+    float:left;
+    margin-top:30px;
+    margin-left:5px;
+    padding:10px;
+
+}
+.obiective >div li:hover
+{
+    background-color:gray;
+    cursor: pointer;
+}
+.obiective >div h1
+{
+    font-size:24px;
+    padding:5px;
+}
+.obiective >div .card-header
+{
+    background-color: #1c77ffaf;
+}
+.obiective >div .card-header:hover 
+{
+    background-color: hotpink;
+    transition: 2s;
+}
