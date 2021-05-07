@@ -1,0 +1,50 @@
+.header
+{
+    position: relative;
+    width:60%;
+    margin-left:auto; margin-right:auto;
+ 
+    text-align: center;
+    
+}
+
+.header input, .header select, .header button
+{
+    padding:5px;
+    margin:5px;
+
+}
+.header select
+{
+    width:20%;
+    position: relative;
+    margin-left:auto; margin-right:auto;
+}
+.section
+{
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+}
+.section >div
+{
+    margin:20px;
+    background-color: #7ebbec;
+ 
+}
+.section > div h1
+{
+    text-align: center;
+}
+.section > div ul li
+{
+    list-style-type:none;
+ 
+}
+.section div ul li:hover
+{
+    background-color: aqua;
+    transition: 2s;
+
+}
